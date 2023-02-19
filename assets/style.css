@@ -263,12 +263,12 @@ font-size: larger;
         margin-right: 45%;
     }
     
-    header {
+header {
 
         background-image: url('../images/footer-banner-web.jpg');
     }
  
-    #game {
+#game {
 
         box-sizing: border-box;
         font-family: inherit;
@@ -282,7 +282,7 @@ font-size: larger;
         background-color: peachpuff;
     }
 
-    .container {
+ .container {
 
         width: 800px;
         max-width: 80%;
@@ -295,6 +295,7 @@ font-size: larger;
 
 .btn-grid {
 
+    grid-template-columns: repeat(2, auto);
     display: grid;
     gap: 15px;
     margin: 20px 0;
@@ -303,11 +304,12 @@ font-size: larger;
 
 .btn {
 
-border: purple, 1px solid;
+border: purple  1px solid;
 border-radius: 5px;
 padding: 5px 10px;
- background-color: pink;
- color: purple;
+background-color: pink;
+color: purple;
+ 
 }
 
 .btn:hover {
@@ -330,9 +332,8 @@ color: red;
     align-items: center;
   }
   
-.start-btn, .next-btn {
+.next-btn {
 
     font-size: 1.5rem;
     font-weight: bold;
 }  
-
