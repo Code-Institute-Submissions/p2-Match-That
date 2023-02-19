@@ -304,7 +304,7 @@ header {
 
 .btn {
 
-border: purple  1px solid;
+border: rgb(245, 186, 245)  3px solid;
 border-radius: 5px;
 padding: 5px 10px;
 background-color: pink;
@@ -337,3 +337,10 @@ color: red;
     font-size: 1.5rem;
     font-weight: bold;
 }  
+
+.start-btn {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
