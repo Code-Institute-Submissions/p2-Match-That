@@ -268,3 +268,71 @@ font-size: larger;
         background-image: url('../images/footer-banner-web.jpg');
     }
  
+    #game {
+
+        box-sizing: border-box;
+        font-family: inherit;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 5px;
+        color: purple;
+        background-color: peachpuff;
+    }
+
+    .container {
+
+        width: 800px;
+        max-width: 80%;
+        background-color: whitesmoke;
+        border: 5px;
+        padding: 10px;
+        box-shadow: 0 0 10px 2px;
+        }
+
+
+.btn-grid {
+
+    display: grid;
+    gap: 15px;
+    margin: 20px 0;
+
+}
+
+.btn {
+
+border: purple, 1px solid;
+border-radius: 5px;
+padding: 5px 10px;
+ background-color: pink;
+ color: purple;
+}
+
+.btn:hover {
+ border-color: black;
+
+}
+
+.btn.correct {
+color: green;
+}
+
+.btn.wrong {
+color: red;
+
+}
+  
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.start-btn, .next-btn {
+
+    font-size: 1.5rem;
+    font-weight: bold;
+}  
+
