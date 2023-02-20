@@ -153,10 +153,10 @@ font-size: larger;
         
         }
 
-
-        footer {
-            height: 150px;
-            background-image: url('../assets/images/footer-banner-web.jpg');
+footer {
+     height: 150px;
+     margin-left: 10px;      
+     background-image: url('../assets/images/footer-banner-web.jpg');
         }
         
  
