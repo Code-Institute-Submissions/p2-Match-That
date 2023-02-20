@@ -7,29 +7,50 @@
     <meta name="description" content="A  website for games and quizzes">
     <meta name="keywords" content="quiz, matching, games">
 
-
     <link rel="stylesheet" href="assets/style.css">
+    
 
     <title>Quizz-It</title>
 </head>
+
+<header>
+    
+  <a href="index.html">
+  <h1 id="logo">Quizz-It! <i class="fa-solid fa-gamepad-modern"></i></h1>
+</a>
+<nav>
+  
+  <ul id="menu">
+     <li> 
+   <a href="about.html" class="active">About</a></li>
+
+     <li>
+         <a href="coming-soon.html" class="active"> Coming Soon</a></li>
+
+     <li class="blink">
+         <a href="game2.html" class="active"> Play Here</a></li>
+  </ul>
+</nav>
+</header>
 <section id="game">
 <body>
-
     <div class="container">
       <div id="question-container" class="hide">
         <div id="question">Question</div>
         <div id="answer-buttons" class="btn-grid">
-          <button class="btn" type="button">Answer 1</button>
-          <button class="btn" type="button">Answer 2</button>
-          <button class="btn" type="button">Answer 3</button>
-          <button class="btn" type="button">Answer 4</button>
+          <button class="btn" type="button"></button>
+          <button class="btn" type="button"></button>
+          <button class="btn" type="button"></button>
+          <button class="btn" type="button"></button>
         </div>
       </div>
       <div class="controls">
-        <button id="start-btn"  class="start-btn btn">Start</button>
-        <button id="next-btn"  class="next-btn btn hide">Next</button>
+        <button id="start-btn"   class="start-btn btn">Start</button>
+        <button id="next-btn" class="next-btn btn hide">Next</button>
       </div>
     </div>
+
+    <script src="assets/script.js"></script>
 
 </body>
 </section>
