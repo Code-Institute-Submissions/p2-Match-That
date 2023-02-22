@@ -64,7 +64,7 @@ h1, h2 {
     font-size: 130%;
 
 }
-
+/* previously where a hero image was styled, kept the height and width for layout */
 #hero-image {
 
     height: 300px;
@@ -80,7 +80,7 @@ h1, h2 {
     background-color: rgb(253, 249, 190);
 }
 
-
+/* blink tag animation for the play here game section*/
 .blink {
 
         animation: blink 2s infinite;
@@ -105,7 +105,7 @@ h1, h2 {
  
     }
 
-
+/* welcome message style*/
 #welcome
          {
 
@@ -123,6 +123,7 @@ text-align: center;
 font-size: larger;
 }
 
+/* sign up styling*/
 .join {
 
     background-color: rgb(253, 249, 190);
@@ -131,20 +132,15 @@ font-size: larger;
     font-size: larger;
 }
 
-    footer {
+/* footer style and structure and footer banner*/
+footer {
 
         height: 150px;
         background: url('../images/footer-banner.jpg');
     }
-    #game-section {
-        background: url('../images/hero-image.jpeg');
-
-    }
     
-
-.coming-soon
-    
-        {
+/* coming soon page style and structure*/
+.coming-soon {
             font-family: inherit;
             color: inherit;
             text-align: center;
@@ -156,16 +152,15 @@ font-size: larger;
             background-color: rgb(253, 249, 190);
         
         }
-
+/* footer styling again */
 footer {
      height: 150px;
      margin-left: 10px;      
      background-image: url('../assets/images/footer-banner-web.jpg');
         }
         
- 
-        
-        .social-networks > li {
+/* social networks list items styling*/
+.social-networks > li {
             display: inline;
         }
         
@@ -177,6 +172,7 @@ footer {
             
         }
 
+/* news-letter section style*/
 .news-letter {
 
 color: rgb(253, 249, 190);
@@ -192,6 +188,7 @@ margin-bottom: 10px;
 font-family: inherit;
 }
 
+/* sign up form styling*/
 .text-input {
 background: transparent;
 color: black;
@@ -208,7 +205,8 @@ border-color: #3a3a3a;
 
 }
 
-    #submit {
+
+#submit {
     display: inline-block; 
     padding: 20px; 
     width: 200px;
@@ -218,16 +216,15 @@ border-color: #3a3a3a;
             }
                 
 
-     #text-center {
-    
-    
-        color: rgb(17, 3, 31);
+#text-center {
+    color: rgb(17, 3, 31);
         min-width: 300px;
         clear: both;
         padding: 10%;
         
     }        
 
+/* about us page style and structure*/
  #origins {
 
     clear: both;
@@ -241,11 +238,8 @@ border-color: #3a3a3a;
     background-color: rgb(253, 249, 190);
  }
  
-
-
-
- #thank-you 
-                {
+ /* thank you page styling*/
+ #thank-you  {
 background-color: rgb(253, 249, 190);
 overflow: hidden;
 text-align: center;
@@ -267,10 +261,7 @@ font-size: larger;
         margin-right: 45%;
     }
     
-header {
-
-        background-image: url('../images/footer-banner-web.jpg');
-    }
+/* game area styling */
  
 #game {
 
@@ -286,6 +277,7 @@ header {
         background-color: peachpuff;
     }
 
+
  .container {
 
         width: 800px;
@@ -296,7 +288,7 @@ header {
         box-shadow: 0 0 10px 2px;
         }
 
-
+/* the clickable question buttons styling */
 .btn-grid {
 
     grid-template-columns: repeat(2, auto);
@@ -306,6 +298,7 @@ header {
 
 }
 
+/* button styling*/
 .btn {
 font-size: 35px;
 border: rgb(245, 186, 245)  3px solid;
@@ -321,15 +314,18 @@ color: purple;
 
 }
 
+/* correct button styling*/
 .btn.correct {
 color: green;
 }
 
+/* wrong button styling */
 .btn.wrong {
 color: red;
 
 }
   
+/* controls section, next and start buttons styling below*/
 .controls {
     display: flex;
     justify-content: center;
