@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A  website for games and quizzes">
     <meta name="keywords" content="quiz, matching, games">
-
+<!---links html to css-->
     <link rel="stylesheet" href="assets/style.css">
     
 
@@ -14,11 +14,12 @@
 </head>
 
 <header>
-    
+    <!---home page link-->
   <a href="index.html">
   <h1 id="logo">Quizz-It! <i class="fa-solid fa-gamepad-modern"></i></h1>
 </a>
 <nav>
+  <!--navigation links-->
   <ul id="menu">
      <li> 
    <a href="about.html" class="active">About</a></li>
@@ -30,11 +31,16 @@
   </ul>
 </nav>
 </header>
+<!--game section-->
 <section id="game">
 <body>
-    <div class="container">
-      <div id="question-container" class="hide">
-        <div id="question">Question</div>
+
+  <div class="container">
+
+    <div id="question-container" class="hide">
+
+    <div id="question">Question</div>
+<!---game question buttons-->
         <div id="answer-buttons" class="btn-grid">
           <button class="btn" type="button"></button>
           <button class="btn" type="button"></button>
@@ -42,6 +48,7 @@
           <button class="btn" type="button"></button>
         </div>
       </div>
+<!--game controllers-->
       <div class="controls">
         <button id="start-btn"   class="start-btn btn">Start</button>
         <button id="next-btn" class="next-btn btn hide">Next</button>
