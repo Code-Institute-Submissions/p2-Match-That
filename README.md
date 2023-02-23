@@ -261,7 +261,7 @@ I could not move the "Start" button after the quiz begins, however I intend on s
           
 Some of the coding I have learned and inspired my own is from such sites as:
 
-Used : (https://www.w3schools.in/html/blink-tag)
+Used : (https://www.w3schools.in/html/blink-tag) to learn how to do the "play here" animation.
 
 A lot of my code was learned through reading "How To's" from w3schools.
 I re-used code from my previous project for layout and structure of my html and css files.
