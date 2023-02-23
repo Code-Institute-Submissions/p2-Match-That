@@ -247,9 +247,8 @@ My initial evaluating with Wave came up with numberous errors, all of which were
    
   ## Bugs Found 
           
-          At the beginning there were numerous bugs, ranging from buttons not working, responsiveness, layout and repetitive coding. These bugs were due to my own poor concentration and poor revision.
-         
-          I could not move the "Start" button after the quiz begins, however I intend on studying intensely to learn from my mistakes as this bug was not resolved.
+ At the beginning there were numerous bugs, ranging from buttons not working, responsiveness, layout and repetitive coding. These bugs were due to my own poor concentration and poor revision.
+I could not move the "Start" button after the quiz begins, however I intend on studying intensely to learn from my mistakes as this bug was not resolved.
 
                     
   ## Credits
