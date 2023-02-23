@@ -1,8 +1,14 @@
  # Match-That!
  
- Match-That is a fictional, new website that has currently one quiz available, but more on the way!
+
+
+
+![Screenshot (479)](https://user-images.githubusercontent.com/119712515/220854150-263179f9-3649-403e-aa85-c146add27d7c.png)
+ Above responsive screen-shot simulation of my website from : [https://ui.dev/amiresponsive?url=https://sonjawisnotavailable.github.io/p2-Match-That/index.html]
+
+Match-That is a fictional, new website that has currently one quiz available, but more on the way!
  
- Please note I did not use favicon for this website either as I am trying to find ways to design my websites on my own as part of my learning.
+ Please note I did not use favicon for this website either as I am trying to find ways to design my websites on my own as part of my learning, I am aware I have a lot to learn still.
  
  A live version of this website can be viewed here:
  [https://sonjawisnotavailable.github.io/p2-Match-That/]
@@ -243,7 +249,7 @@ My initial evaluating with Wave came up with numberous errors, all of which were
           
           At the beginning there were numerous bugs, ranging from buttons not working, responsiveness, layout and repetitive coding. These bugs were due to my own poor concentration and poor revision.
          
-          I could not move the "Start" button after the quiz begins, however I intend on studying intensely to learn from my mistakes.
+          I could not move the "Start" button after the quiz begins, however I intend on studying intensely to learn from my mistakes as this bug was not resolved.
 
                     
   ## Credits
