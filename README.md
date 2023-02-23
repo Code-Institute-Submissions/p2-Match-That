@@ -2,6 +2,8 @@
  
  Match-That is a fictional, new website that has currently one quiz available, but more on the way!
  
+ Please note I did not use favicon for this website either as I am trying to find ways to design my websites on my own as part of my learning.
+ 
  A live version of this website can be viewed here:
  [https://sonjawisnotavailable.github.io/p2-Match-That/]
  
